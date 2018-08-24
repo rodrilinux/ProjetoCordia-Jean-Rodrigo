@@ -4,7 +4,6 @@
 import sqlite3
 
 from tkinter import *
-from django.utils.termcolors import background
 
 # Criar conexão e cursor
 con = sqlite3.connect('mac.db')
@@ -105,7 +104,3 @@ root.title("REPARO")
 root.geometry("1300x650")
 main(root)
 root.mainloop()
-
-# root = Tk()
-
-# root.mainloop()
